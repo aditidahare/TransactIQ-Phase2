@@ -2,7 +2,7 @@ import joblib
 import numpy as np
 from pathlib import Path
 
-MODEL_PATH = Path(__file__).resolve().parents[1] / "models" / "credit_risk_xgb_model.pkl"
+MODEL_PATH = Path(__file__).resolve().parent / "credit_risk_xgb_model.pkl"
 model = joblib.load(MODEL_PATH)
 
 def predict_risk(loan_amnt, term, int_rate, installment, annual_inc, dti, delinq_2yrs, revol_util, total_acc):

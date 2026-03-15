@@ -1,5 +1,5 @@
-# TransactIQ Risk Engine
-#By Aditi Dahare
+# TransactIQ Risk Engine By Aditi Dahare
+
 TransactIQ Risk Engine is an end-to-end credit risk prediction application built using LendingClub loan data. It predicts the probability that a borrower may default on a loan and classifies the borrower into Low, Medium, or High Risk categories through an interactive Streamlit interface.
 
 ## Project Overview
